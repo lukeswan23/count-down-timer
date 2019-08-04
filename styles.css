@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: grey;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.timer {
+  background: black;
+  border-radius: 4px;
+  padding: 2rem;
+  height: 500px;
+}
+
+.timer__header {
+  text-align: center;
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+.timer__header > p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.timer__user__date {
+  margin-top: 1rem;
+}
+
+#timer__date {
+  margin: 0.5rem;
+}
+
+.timer__body {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.timer__day,
+.timer__hour,
+.timer__min,
+.timer__sec {
+  font-size: 3rem;
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 50%;
+  border: 2px dashed antiquewhite;
+  padding: 2rem;
+}
+
+.timer__label {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
